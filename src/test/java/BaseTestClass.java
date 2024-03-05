@@ -17,12 +17,12 @@ public class BaseTestClass {
         driver.manage().window().maximize();
         driver.get(baseUrl);
     }
-/*
+
     @AfterMethod
     public void tearDown() {
         // Close the WebDriver instance
         if (driver != null) {
             driver.quit();
         }
-    }*/
+    }
 }
